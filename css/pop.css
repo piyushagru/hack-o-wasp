@@ -16,6 +16,7 @@
 	top:10%;
 	right:10%;
 	bottom:10%;
+	justify-content: center;
 }
 .pop2
 {
@@ -111,4 +112,5 @@
 	top:10%;
 	right:10%;
 	bottom:10%;
+	
 }

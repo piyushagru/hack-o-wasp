@@ -1,46 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>HACK TIET</title>
+    <title>Team</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- new -->
+<link href="https://fonts.googleapis.com/css?family=Karla|Yeseva+One" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css'>
+
+      <link rel="stylesheet" href="team_css/team-style.css">
+<!-- new -->
+
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
+    
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
+
     <link rel="stylesheet" href="css/aos.css">
+
     <link rel="stylesheet" href="css/ionicons.min.css">
+
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet/scss" type="text/css" href="scss/bootstrap/_team.scss">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/sass.js/0.6.3/sass.min.js"></script>
-
-    <script>
-      (async () => {
-        const compiled = (await Promise.all(
-          [...document.querySelectorAll("link")]
-            .filter(l => l.rel === 'stylesheet/scss')
-            .map(async l => {
-              url = l.href;
-              const code = await (await fetch(url)).text();
-              const basename = url.substring(url.lastIndexOf("/")+1);
-              Sass.writeFile(basename, code);
-              return Sass.compile(`@import "${basename}"; `);
-            })
-        )).join("\n");
-        document.head.innerHTML += `<style>${compiled}</style>`;
-        console.log(compiled);
-      })();
-    </script>
-  
-
+		<link rel="stylesheet" href="css/style.css">
   </head>
   <body>
   	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
@@ -51,387 +45,226 @@
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="team.html" class="nav-link">Team</a></li>
-            <li class="nav-item"><a href="problem.html" class="nav-link">Problems</a></li>
-              <li class="nav-item"><a href="register.html" class="nav-link"><div class="buttonregister">Register</div></a></li>
-            </ul>
+						<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+						<li class="nav-item"><a href="team.html" class="nav-link">Team</a></li>
+						<li class="nav-item"><a href="problem.html" class="nav-link">Problems</a></li>
+						<li class="nav-item" ><a href="register.html" class="nav-link"><div class="buttonregister" style="background: #e52d27;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #b31217, #e52d27); padding-left:5px;padding-right:5px;border-radius:8px; color:white;		font-size: 13px;">Register</div></a></li>
+	        </ul>
 	      </div>
 		  </div>
 	  </nav>
     <!-- END nav -->
-
-
     <section class="hero-wrap js-fullheight">
       <div class="overlay" style="background-image: url();" data-stellar-background-ratio="0.5"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-end">
           <div class="col-md-12 text-center ftco-animate">
-            <h1 class="mb-3 bread" style="background-image: url(images/bg.JPG);" data-stellar-background-ratio="0.5">Core Members</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home.</a></span> <span>OWASP CORE</span></p>
+            <h1 class="mb-3 bread" style="background-image: url(https://cdn-images-1.medium.com/max/1600/1*TEPYwDGrMLyanxvlDbQQkw.png);" data-stellar-background-ratio="0.5">Organising Team</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home.</a></span> <span>OWASP Team</span></p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="ftco-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <span class="subheading">
-              <i class="db-left"></i>
-              3rd Year Core
-              <i class="db-right"></i>
-            </span>
-            <h2 class="mb-3">OWASP CORE</h2>
-            <p>The sturdiest pillars of human morality are compassion and a sense of justice.</p>
-          </div>
-        </div>
-
-<!-- team start -->
-
-<div id="cubeContainer">
-    <div id="cubeWrapper">
-      
-      <div id="cubes">
-        <div class="cube p2">
-          <div class="name">
-            <h1>Brain</h1>
-            <p>Manager</p>
-          </div>
-          <div class="innerBorder"></div>
-          <div class="darken"></div>
-          <div class="content23">
-            <ul>
-              <li><a href=""><span class="fab fa-github"></span></a></li>
-              <li><a href=""><span class="fab fa-facebook-f"></span></a></li>
-              <li><a href=""><span class="fab fa-instagram"></span></a></li>
-              <li><a href=""><span class="fab fa-youtube"></span></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="cube p2">
-            <div class="name">
-              <h1>Brain</h1>
-              <p>Manager</p>
-            </div>
-            <div class="innerBorder"></div>
-            <div class="darken"></div>
-            <div class="content23">
-              <ul>
-                <li><a href=""><span class="fab fa-github"></span></a></li>
-                <li><a href=""><span class="fab fa-facebook-f"></span></a></li>
-                <li><a href=""><span class="fab fa-instagram"></span></a></li>
-                <li><a href=""><span class="fab fa-youtube"></span></a></li>
-              </ul>
-            </div>
-          </div>
-        <div class="cube p1">
-          <div class="name">
-            <h1>Jessica</h1>
-            <p>Community Manager</p>
-          </div>
-          <div class="innerBorder"></div>
-          <div class="darken"></div>
-          <div class="content23">
-            <ul>
-              <li><a href=""><span class="fab fa-twitter"></span></a></li>
-              <li><a href=""><span class="fab fa-facebook-f"></span></a></li>
-              <li><a href=""><span class="fab fa-instagram"></span></a></li>
-              <li><a href=""><span class="fab fa-youtube"></span></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="cube p3">
-          <div class="name">
-            <h1>Chris</h1>
-            <p>Web Developer</p>
-          </div>
-          <div class="innerBorder"></div>
-          <div class="darken"></div>
-          <div class="content23">
-            <ul>
-              <li><a href=""><span class="fab fa-twitter"></span></a></li>
-              <li><a href=""><span class="fab fa-facebook-f"></span></a></li>
-              <li><a href=""><span class="fab fa-instagram"></span></a></li>
-              <li><a href=""><span class="fab fa-youtube"></span></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="cube p4">
-          <div class="name">
-            <h1>James</h1>
-            <p>UX / UI Designer</p>
-          </div>
-          <div class="innerBorder"></div>
-          <div class="darken"></div>
-          <div class="content23">
-            <ul>
-              <li><a href=""><span class="fab fa-twitter"></span></a></li>
-              <li><a href=""><span class="fab fa-facebook-f"></span></a></li>
-              <li><a href=""><span class="fab fa-instagram"></span></a></li>
-              <li><a href=""><span class="fab fa-youtube"></span></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="cube p5">
-          <div class="name">
-            <h1>Rebecca</h1>
-            <p>Graphics Designer</p>
-          </div>
-          <div class="innerBorder"></div>
-          <div class="darken"></div>
-          <div class="content23">
-            <ul>
-              <li><a href=""><span class="fab fa-twitter"></span></a></li>
-              <li><a href=""><span class="fab fa-facebook-f"></span></a></li>
-              <li><a href=""><span class="fab fa-instagram"></span></a></li>
-              <li><a href=""><span class="fab fa-youtube"></span></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="cube p6">
-          <div class="name">
-            <h1>James</h1>
-            <p>UX / UI Designer</p>
-          </div>
-          <div class="innerBorder"></div>
-          <div class="darken"></div>
-          <div class="content23">
-            <ul>
-              <li><a href=""><span class="fab fa-twitter"></span></a></li>
-              <li><a href=""><span class="fab fa-facebook-f"></span></a></li>
-              <li><a href=""><span class="fab fa-instagram"></span></a></li>
-              <li><a href=""><span class="fab fa-youtube"></span></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="cube p6">
-            <div class="name">
-              <h1>James</h1>
-              <p>UX / UI Designer</p>
-            </div>
-            <div class="innerBorder"></div>
-            <div class="darken"></div>
-            <div class="content23">
-              <ul>
-                <li><a href=""><span class="fab fa-twitter"></span></a></li>
-                <li><a href=""><span class="fab fa-facebook-f"></span></a></li>
-                <li><a href=""><span class="fab fa-instagram"></span></a></li>
-                <li><a href=""><span class="fab fa-youtube"></span></a></li>
-              </ul>
-            </div>
-          </div>
-      </div>
-    </div>
-  </div>
-<!-- team end -->
-
-
-
-        <div class="row no-gutters">
-
-
-
-
-          <div class="col-lg-6 d-flex">
-            <div class="coach d-sm-flex align-items-stretch">
-              <div class="img"
-                style="background-image: url(http://www.anshgujral.com/img/member/member-1.jpeg);"></div>
-              <div class="text py-4 px-5 ftco-animate">
-                <span class="subheading">General Secretary</span>
-                <h3><a href="#">Ansh Gujral</a></h3>
-                <p>Full Stack Engineer at SimbaQuartz | Free Lancer | React Native | ReactJS | NodeJS |
-                  Firebase | Flutter
-                  | GraphQL | MERN Stack | Blockchain | IOT</p>
-                <ul class="ftco-social-media d-flex mt-4">
-                  <li class="ftco-animate"><a href="https://www.linkedin.com/in/ansh-gujral-43191813b/"
-                      class="mr-2 d-flex justify-content-center align-items-center"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                      width="50" height="50"
-                      viewBox="0 0 224 224"
-                      style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,224v-224h224v224z" fill="none"></path><g fill="#ffffff"><path d="M46.66667,28c-10.31333,0 -18.66667,8.35333 -18.66667,18.66667v130.66667c0,10.31333 8.35333,18.66667 18.66667,18.66667h130.66667c10.31333,0 18.66667,-8.35333 18.66667,-18.66667v-130.66667c0,-10.31333 -8.35333,-18.66667 -18.66667,-18.66667zM46.66667,46.66667h130.66667v130.66667h-130.66667zM72.60677,58.95312c-7.99867,0 -12.79688,4.80827 -12.79688,11.21094c0,6.40267 4.79879,11.19271 11.99479,11.19271c7.99867,0 12.79687,-4.79004 12.79687,-11.19271c0,-6.40267 -4.79879,-11.21094 -11.99479,-11.21094zM60.44792,93.33333v65.33333h23.55208v-65.33333zM103.43229,93.33333v65.33333h23.55209v-35.71094c0,-10.63067 7.58464,-12.15885 9.86197,-12.15885c2.27733,0 8.36719,2.28418 8.36719,12.15885v35.71094h22.78646v-35.71094c0,-20.50533 -9.11182,-29.62239 -20.50782,-29.62239c-11.396,0 -17.47447,3.79458 -20.50781,9.11458v-9.11458z"></path></g></g></svg></a></li>
-                  <li class="ftco-animate"><a href="#"
-                      class="mr-2 d-flex justify-content-center align-items-center"><span
-                        class="icon-facebook"></span></a></li>
-                  <li class="ftco-animate"><a href="#"
-                      class="mr-2 d-flex justify-content-center align-items-center"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                      width="50" height="50"
-                      viewBox="0 0 224 224"
-                      style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,224v-224h224v224z" fill="none"></path><g fill="#ffffff"><path d="M112,8.96c-56.84522,0 -103.04,46.19478 -103.04,103.04c0,56.84522 46.19478,103.04 103.04,103.04c56.84522,0 103.04,-46.19478 103.04,-103.04c0,-56.84522 -46.19478,-103.04 -103.04,-103.04zM112,17.92c52.00086,0 94.08,42.07914 94.08,94.08c0,0.31974 -0.02308,0.63476 -0.02625,0.95375c-2.86547,-0.26449 -6.17628,-0.51572 -10.38625,-0.665c-5.95266,-0.21108 -13.45578,-0.14993 -21.9625,0.27125c0.31545,-2.19676 0.53656,-4.42455 0.5425,-6.71125c0.4338,-8.38934 -2.3834,-16.23771 -6.965,-23.17c1.10687,-3.82469 2.40533,-8.69057 2.73,-14.21c0.37005,-6.29117 -0.17302,-13.26724 -5.22375,-17.98125l-1.295,-1.2075h-1.7675c-12.02015,0 -20.24775,5.03198 -25.27875,9.02125c-7.26433,-2.81187 -15.43275,-4.54125 -24.4475,-4.54125c-9.06588,0 -17.31285,1.75354 -24.87625,4.55875c-5.02815,-3.99117 -13.26295,-9.03875 -25.29625,-9.03875h-1.75875l-1.295,1.19875c-4.91987,4.56845 -5.37315,11.35313 -5.06625,17.61375c0.27064,5.52065 1.49386,10.5411 2.58125,14.55125c-4.65904,7.06762 -7.455,15.11889 -7.455,23.0825c0,2.29209 0.21315,4.52687 0.525,6.72875c-8.08981,-0.37522 -15.30134,-0.44753 -21.02625,-0.245c-4.20988,0.14893 -7.52092,0.39799 -10.38625,0.665c-0.00267,-0.29272 -0.02625,-0.58164 -0.02625,-0.875c0,-52.00086 42.07914,-94.08 94.08,-94.08zM64.49625,58.82625c9.03877,0.8565 15.83909,4.89267 18.9875,7.69125l2.1,1.855l2.59,-1.05875c7.0849,-2.91731 14.98714,-4.59375 23.82625,-4.59375c8.83911,0 16.74352,1.68482 23.2925,4.55l2.625,1.155l2.14375,-1.9075c3.14949,-2.79954 9.96133,-6.83694 19.005,-7.69125c1.20242,1.99352 2.24729,4.82858 1.995,9.1175c-0.30195,5.13283 -1.67493,10.72352 -2.7125,14.04375l-0.67375,2.16125l1.33875,1.82875c4.43285,6.0448 6.69303,12.5867 6.30875,19.50375l-0.00875,0.1225v0.1225c0,11.17964 -4.02578,20.12743 -12.6,26.7575c-8.57402,6.6301 -22.10982,10.87625 -41.16,10.87625c-19.05018,0 -32.59453,-4.24618 -41.16875,-10.87625c-8.57423,-6.63007 -12.59125,-15.57786 -12.59125,-26.7575c0,-6.56188 2.36955,-13.78052 6.74625,-19.74875l1.3125,-1.785l-0.63,-2.12625c-1.03814,-3.52968 -2.31065,-9.24787 -2.56375,-14.41125c-0.21052,-4.29463 0.80592,-7.00912 1.8375,-8.82875zM39.80375,116.57625c3.16598,0.04044 6.79479,0.21133 10.43,0.39375c0.34733,1.39685 0.74337,2.77098 1.225,4.1125c-14.81695,0.31247 -25.90156,1.80244 -32.73375,3.08c-0.28887,-2.24157 -0.51896,-4.50161 -0.6475,-6.79c5.04918,-0.47917 12.16697,-0.91834 21.72625,-0.79625zM184.19625,116.64625c9.55267,-0.1213 16.66781,0.31829 21.7175,0.79625c-0.12838,2.25561 -0.35456,4.48367 -0.63875,6.69375c-7.07635,-1.29819 -18.46046,-2.78789 -33.66125,-3.0275c0.47176,-1.315 0.86458,-2.66553 1.2075,-4.03375c4.01013,-0.21495 7.9224,-0.3849 11.375,-0.42875zM53.36625,125.5275c2.6734,5.35717 6.49334,10.14043 11.54125,14.04375c6.90164,5.33673 15.87417,9.06546 26.8275,11.06c-1.43299,1.47236 -2.7363,3.08918 -3.89375,4.795l-0.27125,-0.23625c0.02464,-0.02822 -2.22712,1.09873 -5.59125,1.4c-3.36413,0.30128 -7.51391,0.21 -11.19125,0.21c-5.488,0 -7.90528,-2.59298 -11.76875,-7.315c-2.1394,-2.88345 -4.74758,-5.21856 -7.28,-6.99125c-2.59306,-1.81514 -4.80511,-3.09627 -7.5425,-3.5525l-0.3675,-0.06125h-0.37625c-2.09067,0 -4.11369,0.15138 -6.0025,2.31c-0.9444,1.07932 -1.59532,3.07747 -1.1725,4.76875c0.42282,1.69128 1.49274,2.73057 2.45,3.36875c6.12292,4.08195 7.20502,12.16087 11.0425,19.34625c3.58366,7.14078 11.31777,10.52625 19.22375,10.52625h11.64625v21.51625c-31.50421,-11.12025 -55.26224,-38.51958 -61.2325,-72.12625c6.85844,-1.2918 18.34339,-2.84488 33.95875,-3.0625zM169.715,125.5625c15.96101,0.13662 27.76811,1.68769 34.88625,3.00125c-5.96232,33.61899 -29.72861,61.02927 -61.24125,72.1525v-23.31c0,-7.09886 -2.3312,-14.9269 -6.3875,-21.455c-1.23154,-1.98201 -2.68027,-3.85643 -4.29625,-5.53875c10.37218,-2.04906 18.89274,-5.71378 25.52375,-10.84125c5.03697,-3.89487 8.84839,-8.66375 11.515,-14.00875zM106.1725,152.76625h12.5475c3.64144,0 7.5283,2.9021 10.64,7.91c3.1117,5.0079 5.04,11.73286 5.04,16.73v25.97875c-7.17961,1.75077 -14.67742,2.695 -22.4,2.695c-7.72258,0 -15.22039,-0.94423 -22.4,-2.695v-25.97875c0,-4.88652 2.09587,-11.59559 5.41625,-16.625c3.32038,-5.0294 7.51481,-8.015 11.15625,-8.015zM55.1425,158.06c3.87867,4.02308 8.57441,7.7 15.645,7.7c3.49067,0 7.84763,0.12577 11.9875,-0.245c0.01472,-0.00132 0.02903,-0.00743 0.04375,-0.00875c-0.54543,1.56801 -0.95238,3.14572 -1.295,4.73375h-12.53c-5.52534,0 -9.4287,-1.99615 -11.22625,-5.59125l-0.035,-0.06125l-0.02625,-0.0525c-0.73652,-1.36806 -1.70336,-4.10355 -2.56375,-6.475z"></path></g></g></svg></a></li>
-                </ul>
-                <p></p>
+    <!-- sfsdggsgs -->
+    <div :class="['containerrr', isSelected ? 'containerrr-selected':'', isReady ? 'containerrr-ready':'']" id="app">
+            <div class="team-containerrr">
+              <div class="headerr">
+                
               </div>
-            </div>
+              <div class="person-list">
+                <div class="person"><img class="person-img" src="images/team/ansh.jpg">
+                  <div class="person-details">
+                    <h2 class="person-title">Ansh Gujral</h2>
+                    <div class="social">
+                            <a href="https://github.com/gujral1997" target="_blank" class="fa fa-github"></a>
+                            <a href="https://www.linkedin.com/in/gujral1997" target="_blank" class="fa fa-linkedin"></a>                          
+                          </div>
+                    <p class="person-desc">Full-Stack Developer</p>
+									</div>
+								</div>
+								<div class="person"><img class="person-img" src="images/team/tanmay.jpg">
+                  <div class="person-details">
+                    <h2 class="person-title">Tanmay Bhatnagar</h2>
+                    <div class="social">
+                            <a href="https://gitHub.com/tanmay-bhatnagar" target="_blank" class="fa fa-github"></a>
+                            <a href="https://www.linkedin.com/in/tanmay-bhatnagar-043b16147" target="_blank" class="fa fa-linkedin"></a>                          
+                          </div>
+                    <p class="person-desc">Data Scientist</p>
+									</div>
+								</div>
+								<div class="person"><img class="person-img" src="images/team/tathagat.jpg">
+                  <div class="person-details">
+                    <h2 class="person-title">Tathagat Thapliyal</h2>
+                    <div class="social">
+                            <a href="https://github.com/tathagat2006" target="_blank" class="fa fa-github"></a>
+                            <a href="https://www.linkedin.com/in/tathagat-thapliyal/" target="_blank" class="fa fa-linkedin"></a>                          
+                          </div>
+                    <p class="person-desc">React & Node JS Developer</p>
+									</div>
+								</div>
+								<div class="person"><img class="person-img" src="images/team/piyush.jpg">
+                  <div class="person-details">
+                    <h2 class="person-title">Piyush Aggarwal</h2>
+                    <div class="social">
+                            <a href="https://github.com/piyushagru" target="_blank" class="fa fa-github"></a>
+                            <a href="https://www.linkedin.com/in/agru/" target="_blank" class="fa fa-linkedin"></a>                          
+                          </div>
+                    <p class="person-desc">Security Researcher</p>
+									</div>
+								</div>
+								<div class="person"><img class="person-img" src="images/team/harkirat.jpg">
+                  <div class="person-details">
+                    <h2 class="person-title">Harkirat Nagpal</h2>
+                    <div class="social">
+                            <a href="https://www.linkedin.com/in/harkirat-singh-nagpal-10b08114b" target="_blank" class="fa fa-linkedin"></a>                          
+                          </div>
+                    <p class="person-desc">Graphic Designer</p>
+									</div>
+								</div>
+								<div class="person"><img class="person-img" src="images/team/anmol.jpg">
+                  <div class="person-details">
+                    <h2 class="person-title">Anmol Goyal</h2>
+                    <div class="social">
+                            <a href="http://linkedin.com/in/anmol-goyal-752520172" target="_blank" class="fa fa-linkedin"></a>                          
+                          </div>
+                    <p class="person-desc">Web Front-End Developer</p>
+									</div>
+								</div>
+								<div class="person"><img class="person-img" src="images/team/sirish.jpg">
+                  <div class="person-details">
+                    <h2 class="person-title">Sirish Bhudolia</h2>
+                    <div class="social">
+                            <a href="https://sirishbhu.github.io" target="_blank" class="fa fa-github"></a>
+                            <a href="https://in.linkedin.com/in/sirish-bhudolia-b2a420160" target="_blank" class="fa fa-linkedin"></a>                          
+                          </div>
+                    <p class="person-desc">Finance Administrator</p>
+									</div>
+                </div><div class="person"><img class="person-img" src="images/team/sarthak.jpg">
+                  <div class="person-details">
+                    <h2 class="person-title">Sarthak Sharma</h2>
+                    <div class="social">
+                            <a href="https://github.com/InvincibleSarthak" target="_blank" class="fa fa-github"></a>
+                            <a href="https://www.linkedin.com/in/sarthak-s-b73911112" target="_blank" class="fa fa-linkedin"></a>                          
+                          </div>
+                    <p class="person-desc">Android Developer</p>
+									</div>
+								</div>
+							
+								<div class="person"><img class="person-img" src="images/team/malvika.jpg">
+                  <div class="person-details">
+                    <h2 class="person-title">Malvika Tagra</h2>
+                    <div class="social">          
+                          </div>
+                    <p class="person-desc">Full-Stack Developer</p>
+									</div>
+								</div>
+								
+								<div class="person"><img class="person-img" src="images/team/palki.jpg">
+                  <div class="person-details">
+                    <h2 class="person-title">Palki Bansal</h2>
+                    <div class="social">
+                            <a href="https://github.com/palkibansal31" target="_blank" class="fa fa-github"></a>
+														<a href="https://www.linkedin.com/in/palki-bansal-a58592184" target="_blank" class="fa fa-linkedin"></a>                
+                          </div>
+                    <p class="person-desc">Web Developer</p>
+									</div>
+								</div>
+								
+								<div class="person"><img class="person-img" src="images/team/gurpreet.jpg">
+                  <div class="person-details">
+                    <h2 class="person-title">Gurpreet</h2>
+                    <div class="social">
+                            <a href="https://github.com/gur01052000" target="_blank" class="fa fa-github"></a>
+                            <a href="http://linkedin.com/in/gurpreet-kaur-5b76ab145" target="_blank" class="fa fa-linkedin"></a>                          
+                          </div>
+                    <p class="person-desc">Java Game Developer</p>
+									</div>
+								</div>
+								
+								<div class="person"><img class="person-img" src="images/team/leeza.jpg">
+                  <div class="person-details">
+                    <h2 class="person-title">Leeza Garg</h2>
+                    <div class="social">
+                            <a href="#" target="_blank" class="fa fa-github"></a>
+                            <a href="https://www.linkedin.com/in/leeza-aggarwal-23a0b0179" target="_blank" class="fa fa-linkedin"></a>                          
+                          </div>
+                    <p class="person-desc">Content Writer</p>
+									</div></div></div></div> 
           </div>
-          <div class="col-lg-6 d-flex">
-            <div class="coach d-sm-flex align-items-stretch">
-              <div class="img"
-                style="background-image: url(images/sanchit.jpg);">
-              </div>
-              <div class="text py-4 px-5 ftco-animate">
-                <span class="subheading">Joint Secretary</span>
-                <h3><a href="#">Sanchit Nayyar</a></h3>
-                <p> I am into automation using Python, and web development. I use Django or PHP as per the
-                  requirements of
-                  the client for the server side development, and client side is always simple CSS3 with
-                  JavaScript +
-                  jQuery.
-                </p>
-                <ul class="ftco-social-media d-flex mt-4">
-                  <li class="ftco-animate"><a href="https://www.linkedin.com/in/sanchit-nayyar-462762144/"
-                      class="mr-2 d-flex justify-content-center align-items-center"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                      width="50" height="50"
-                      viewBox="0 0 224 224"
-                      style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,224v-224h224v224z" fill="none"></path><g fill="#ffffff"><path d="M46.66667,28c-10.31333,0 -18.66667,8.35333 -18.66667,18.66667v130.66667c0,10.31333 8.35333,18.66667 18.66667,18.66667h130.66667c10.31333,0 18.66667,-8.35333 18.66667,-18.66667v-130.66667c0,-10.31333 -8.35333,-18.66667 -18.66667,-18.66667zM46.66667,46.66667h130.66667v130.66667h-130.66667zM72.60677,58.95312c-7.99867,0 -12.79688,4.80827 -12.79688,11.21094c0,6.40267 4.79879,11.19271 11.99479,11.19271c7.99867,0 12.79687,-4.79004 12.79687,-11.19271c0,-6.40267 -4.79879,-11.21094 -11.99479,-11.21094zM60.44792,93.33333v65.33333h23.55208v-65.33333zM103.43229,93.33333v65.33333h23.55209v-35.71094c0,-10.63067 7.58464,-12.15885 9.86197,-12.15885c2.27733,0 8.36719,2.28418 8.36719,12.15885v35.71094h22.78646v-35.71094c0,-20.50533 -9.11182,-29.62239 -20.50782,-29.62239c-11.396,0 -17.47447,3.79458 -20.50781,9.11458v-9.11458z"></path></g></g></svg></a></li>
-                  <li class="ftco-animate"><a href="#"
-                      class="mr-2 d-flex justify-content-center align-items-center"><span
-                        class="icon-facebook"></span></a></li>
-                  <li class="ftco-animate"><a href="#"
-                      class="mr-2 d-flex justify-content-center align-items-center"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                      width="50" height="50"
-                      viewBox="0 0 224 224"
-                      style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,224v-224h224v224z" fill="none"></path><g fill="#ffffff"><path d="M112,8.96c-56.84522,0 -103.04,46.19478 -103.04,103.04c0,56.84522 46.19478,103.04 103.04,103.04c56.84522,0 103.04,-46.19478 103.04,-103.04c0,-56.84522 -46.19478,-103.04 -103.04,-103.04zM112,17.92c52.00086,0 94.08,42.07914 94.08,94.08c0,0.31974 -0.02308,0.63476 -0.02625,0.95375c-2.86547,-0.26449 -6.17628,-0.51572 -10.38625,-0.665c-5.95266,-0.21108 -13.45578,-0.14993 -21.9625,0.27125c0.31545,-2.19676 0.53656,-4.42455 0.5425,-6.71125c0.4338,-8.38934 -2.3834,-16.23771 -6.965,-23.17c1.10687,-3.82469 2.40533,-8.69057 2.73,-14.21c0.37005,-6.29117 -0.17302,-13.26724 -5.22375,-17.98125l-1.295,-1.2075h-1.7675c-12.02015,0 -20.24775,5.03198 -25.27875,9.02125c-7.26433,-2.81187 -15.43275,-4.54125 -24.4475,-4.54125c-9.06588,0 -17.31285,1.75354 -24.87625,4.55875c-5.02815,-3.99117 -13.26295,-9.03875 -25.29625,-9.03875h-1.75875l-1.295,1.19875c-4.91987,4.56845 -5.37315,11.35313 -5.06625,17.61375c0.27064,5.52065 1.49386,10.5411 2.58125,14.55125c-4.65904,7.06762 -7.455,15.11889 -7.455,23.0825c0,2.29209 0.21315,4.52687 0.525,6.72875c-8.08981,-0.37522 -15.30134,-0.44753 -21.02625,-0.245c-4.20988,0.14893 -7.52092,0.39799 -10.38625,0.665c-0.00267,-0.29272 -0.02625,-0.58164 -0.02625,-0.875c0,-52.00086 42.07914,-94.08 94.08,-94.08zM64.49625,58.82625c9.03877,0.8565 15.83909,4.89267 18.9875,7.69125l2.1,1.855l2.59,-1.05875c7.0849,-2.91731 14.98714,-4.59375 23.82625,-4.59375c8.83911,0 16.74352,1.68482 23.2925,4.55l2.625,1.155l2.14375,-1.9075c3.14949,-2.79954 9.96133,-6.83694 19.005,-7.69125c1.20242,1.99352 2.24729,4.82858 1.995,9.1175c-0.30195,5.13283 -1.67493,10.72352 -2.7125,14.04375l-0.67375,2.16125l1.33875,1.82875c4.43285,6.0448 6.69303,12.5867 6.30875,19.50375l-0.00875,0.1225v0.1225c0,11.17964 -4.02578,20.12743 -12.6,26.7575c-8.57402,6.6301 -22.10982,10.87625 -41.16,10.87625c-19.05018,0 -32.59453,-4.24618 -41.16875,-10.87625c-8.57423,-6.63007 -12.59125,-15.57786 -12.59125,-26.7575c0,-6.56188 2.36955,-13.78052 6.74625,-19.74875l1.3125,-1.785l-0.63,-2.12625c-1.03814,-3.52968 -2.31065,-9.24787 -2.56375,-14.41125c-0.21052,-4.29463 0.80592,-7.00912 1.8375,-8.82875zM39.80375,116.57625c3.16598,0.04044 6.79479,0.21133 10.43,0.39375c0.34733,1.39685 0.74337,2.77098 1.225,4.1125c-14.81695,0.31247 -25.90156,1.80244 -32.73375,3.08c-0.28887,-2.24157 -0.51896,-4.50161 -0.6475,-6.79c5.04918,-0.47917 12.16697,-0.91834 21.72625,-0.79625zM184.19625,116.64625c9.55267,-0.1213 16.66781,0.31829 21.7175,0.79625c-0.12838,2.25561 -0.35456,4.48367 -0.63875,6.69375c-7.07635,-1.29819 -18.46046,-2.78789 -33.66125,-3.0275c0.47176,-1.315 0.86458,-2.66553 1.2075,-4.03375c4.01013,-0.21495 7.9224,-0.3849 11.375,-0.42875zM53.36625,125.5275c2.6734,5.35717 6.49334,10.14043 11.54125,14.04375c6.90164,5.33673 15.87417,9.06546 26.8275,11.06c-1.43299,1.47236 -2.7363,3.08918 -3.89375,4.795l-0.27125,-0.23625c0.02464,-0.02822 -2.22712,1.09873 -5.59125,1.4c-3.36413,0.30128 -7.51391,0.21 -11.19125,0.21c-5.488,0 -7.90528,-2.59298 -11.76875,-7.315c-2.1394,-2.88345 -4.74758,-5.21856 -7.28,-6.99125c-2.59306,-1.81514 -4.80511,-3.09627 -7.5425,-3.5525l-0.3675,-0.06125h-0.37625c-2.09067,0 -4.11369,0.15138 -6.0025,2.31c-0.9444,1.07932 -1.59532,3.07747 -1.1725,4.76875c0.42282,1.69128 1.49274,2.73057 2.45,3.36875c6.12292,4.08195 7.20502,12.16087 11.0425,19.34625c3.58366,7.14078 11.31777,10.52625 19.22375,10.52625h11.64625v21.51625c-31.50421,-11.12025 -55.26224,-38.51958 -61.2325,-72.12625c6.85844,-1.2918 18.34339,-2.84488 33.95875,-3.0625zM169.715,125.5625c15.96101,0.13662 27.76811,1.68769 34.88625,3.00125c-5.96232,33.61899 -29.72861,61.02927 -61.24125,72.1525v-23.31c0,-7.09886 -2.3312,-14.9269 -6.3875,-21.455c-1.23154,-1.98201 -2.68027,-3.85643 -4.29625,-5.53875c10.37218,-2.04906 18.89274,-5.71378 25.52375,-10.84125c5.03697,-3.89487 8.84839,-8.66375 11.515,-14.00875zM106.1725,152.76625h12.5475c3.64144,0 7.5283,2.9021 10.64,7.91c3.1117,5.0079 5.04,11.73286 5.04,16.73v25.97875c-7.17961,1.75077 -14.67742,2.695 -22.4,2.695c-7.72258,0 -15.22039,-0.94423 -22.4,-2.695v-25.97875c0,-4.88652 2.09587,-11.59559 5.41625,-16.625c3.32038,-5.0294 7.51481,-8.015 11.15625,-8.015zM55.1425,158.06c3.87867,4.02308 8.57441,7.7 15.645,7.7c3.49067,0 7.84763,0.12577 11.9875,-0.245c0.01472,-0.00132 0.02903,-0.00743 0.04375,-0.00875c-0.54543,1.56801 -0.95238,3.14572 -1.295,4.73375h-12.53c-5.52534,0 -9.4287,-1.99615 -11.22625,-5.59125l-0.035,-0.06125l-0.02625,-0.0525c-0.73652,-1.36806 -1.70336,-4.10355 -2.56375,-6.475z"></path></g></g></svg></a></li>
-                </ul>
-                <p></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 d-flex">
-            <div class="coach d-sm-flex align-items-stretch">
-              <div class="img order-xl-last"
-                style="background-image: url(https://media.licdn.com/dms/image/C5103AQFJphED4Y77qg/profile-displayphoto-shrink_800_800/0?e=1556150400&v=beta&t=A9mUREvNaSstfG40I3WAnpK6GrchWYJDPVHzRSprbz8);">
-              </div>
-              <div class="text py-4 px-5 ftco-animate">
-                <span class="subheading">Technical head</span>
-                <h3><a href="#">Rahul Kaushik</a></h3>
-                <p>C++|Java|R|Deep Learning|Machine Learning|Python</p>
-                <ul class="ftco-social-media d-flex mt-4">
-                  <li class="ftco-animate"><a href="#"
-                      class="mr-2 d-flex justify-content-center align-items-center"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                      width="50" height="50"
-                      viewBox="0 0 224 224"
-                      style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,224v-224h224v224z" fill="none"></path><g fill="#ffffff"><path d="M46.66667,28c-10.31333,0 -18.66667,8.35333 -18.66667,18.66667v130.66667c0,10.31333 8.35333,18.66667 18.66667,18.66667h130.66667c10.31333,0 18.66667,-8.35333 18.66667,-18.66667v-130.66667c0,-10.31333 -8.35333,-18.66667 -18.66667,-18.66667zM46.66667,46.66667h130.66667v130.66667h-130.66667zM72.60677,58.95312c-7.99867,0 -12.79688,4.80827 -12.79688,11.21094c0,6.40267 4.79879,11.19271 11.99479,11.19271c7.99867,0 12.79687,-4.79004 12.79687,-11.19271c0,-6.40267 -4.79879,-11.21094 -11.99479,-11.21094zM60.44792,93.33333v65.33333h23.55208v-65.33333zM103.43229,93.33333v65.33333h23.55209v-35.71094c0,-10.63067 7.58464,-12.15885 9.86197,-12.15885c2.27733,0 8.36719,2.28418 8.36719,12.15885v35.71094h22.78646v-35.71094c0,-20.50533 -9.11182,-29.62239 -20.50782,-29.62239c-11.396,0 -17.47447,3.79458 -20.50781,9.11458v-9.11458z"></path></g></g></svg></a></li>
-                  <li class="ftco-animate"><a href="#"
-                      class="mr-2 d-flex justify-content-center align-items-center"><span
-                        class="icon-facebook"></span></a></li>
-                  <li class="ftco-animate"><a href="#"
-                      class="mr-2 d-flex justify-content-center align-items-center"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                      width="50" height="50"
-                      viewBox="0 0 224 224"
-                      style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,224v-224h224v224z" fill="none"></path><g fill="#ffffff"><path d="M112,8.96c-56.84522,0 -103.04,46.19478 -103.04,103.04c0,56.84522 46.19478,103.04 103.04,103.04c56.84522,0 103.04,-46.19478 103.04,-103.04c0,-56.84522 -46.19478,-103.04 -103.04,-103.04zM112,17.92c52.00086,0 94.08,42.07914 94.08,94.08c0,0.31974 -0.02308,0.63476 -0.02625,0.95375c-2.86547,-0.26449 -6.17628,-0.51572 -10.38625,-0.665c-5.95266,-0.21108 -13.45578,-0.14993 -21.9625,0.27125c0.31545,-2.19676 0.53656,-4.42455 0.5425,-6.71125c0.4338,-8.38934 -2.3834,-16.23771 -6.965,-23.17c1.10687,-3.82469 2.40533,-8.69057 2.73,-14.21c0.37005,-6.29117 -0.17302,-13.26724 -5.22375,-17.98125l-1.295,-1.2075h-1.7675c-12.02015,0 -20.24775,5.03198 -25.27875,9.02125c-7.26433,-2.81187 -15.43275,-4.54125 -24.4475,-4.54125c-9.06588,0 -17.31285,1.75354 -24.87625,4.55875c-5.02815,-3.99117 -13.26295,-9.03875 -25.29625,-9.03875h-1.75875l-1.295,1.19875c-4.91987,4.56845 -5.37315,11.35313 -5.06625,17.61375c0.27064,5.52065 1.49386,10.5411 2.58125,14.55125c-4.65904,7.06762 -7.455,15.11889 -7.455,23.0825c0,2.29209 0.21315,4.52687 0.525,6.72875c-8.08981,-0.37522 -15.30134,-0.44753 -21.02625,-0.245c-4.20988,0.14893 -7.52092,0.39799 -10.38625,0.665c-0.00267,-0.29272 -0.02625,-0.58164 -0.02625,-0.875c0,-52.00086 42.07914,-94.08 94.08,-94.08zM64.49625,58.82625c9.03877,0.8565 15.83909,4.89267 18.9875,7.69125l2.1,1.855l2.59,-1.05875c7.0849,-2.91731 14.98714,-4.59375 23.82625,-4.59375c8.83911,0 16.74352,1.68482 23.2925,4.55l2.625,1.155l2.14375,-1.9075c3.14949,-2.79954 9.96133,-6.83694 19.005,-7.69125c1.20242,1.99352 2.24729,4.82858 1.995,9.1175c-0.30195,5.13283 -1.67493,10.72352 -2.7125,14.04375l-0.67375,2.16125l1.33875,1.82875c4.43285,6.0448 6.69303,12.5867 6.30875,19.50375l-0.00875,0.1225v0.1225c0,11.17964 -4.02578,20.12743 -12.6,26.7575c-8.57402,6.6301 -22.10982,10.87625 -41.16,10.87625c-19.05018,0 -32.59453,-4.24618 -41.16875,-10.87625c-8.57423,-6.63007 -12.59125,-15.57786 -12.59125,-26.7575c0,-6.56188 2.36955,-13.78052 6.74625,-19.74875l1.3125,-1.785l-0.63,-2.12625c-1.03814,-3.52968 -2.31065,-9.24787 -2.56375,-14.41125c-0.21052,-4.29463 0.80592,-7.00912 1.8375,-8.82875zM39.80375,116.57625c3.16598,0.04044 6.79479,0.21133 10.43,0.39375c0.34733,1.39685 0.74337,2.77098 1.225,4.1125c-14.81695,0.31247 -25.90156,1.80244 -32.73375,3.08c-0.28887,-2.24157 -0.51896,-4.50161 -0.6475,-6.79c5.04918,-0.47917 12.16697,-0.91834 21.72625,-0.79625zM184.19625,116.64625c9.55267,-0.1213 16.66781,0.31829 21.7175,0.79625c-0.12838,2.25561 -0.35456,4.48367 -0.63875,6.69375c-7.07635,-1.29819 -18.46046,-2.78789 -33.66125,-3.0275c0.47176,-1.315 0.86458,-2.66553 1.2075,-4.03375c4.01013,-0.21495 7.9224,-0.3849 11.375,-0.42875zM53.36625,125.5275c2.6734,5.35717 6.49334,10.14043 11.54125,14.04375c6.90164,5.33673 15.87417,9.06546 26.8275,11.06c-1.43299,1.47236 -2.7363,3.08918 -3.89375,4.795l-0.27125,-0.23625c0.02464,-0.02822 -2.22712,1.09873 -5.59125,1.4c-3.36413,0.30128 -7.51391,0.21 -11.19125,0.21c-5.488,0 -7.90528,-2.59298 -11.76875,-7.315c-2.1394,-2.88345 -4.74758,-5.21856 -7.28,-6.99125c-2.59306,-1.81514 -4.80511,-3.09627 -7.5425,-3.5525l-0.3675,-0.06125h-0.37625c-2.09067,0 -4.11369,0.15138 -6.0025,2.31c-0.9444,1.07932 -1.59532,3.07747 -1.1725,4.76875c0.42282,1.69128 1.49274,2.73057 2.45,3.36875c6.12292,4.08195 7.20502,12.16087 11.0425,19.34625c3.58366,7.14078 11.31777,10.52625 19.22375,10.52625h11.64625v21.51625c-31.50421,-11.12025 -55.26224,-38.51958 -61.2325,-72.12625c6.85844,-1.2918 18.34339,-2.84488 33.95875,-3.0625zM169.715,125.5625c15.96101,0.13662 27.76811,1.68769 34.88625,3.00125c-5.96232,33.61899 -29.72861,61.02927 -61.24125,72.1525v-23.31c0,-7.09886 -2.3312,-14.9269 -6.3875,-21.455c-1.23154,-1.98201 -2.68027,-3.85643 -4.29625,-5.53875c10.37218,-2.04906 18.89274,-5.71378 25.52375,-10.84125c5.03697,-3.89487 8.84839,-8.66375 11.515,-14.00875zM106.1725,152.76625h12.5475c3.64144,0 7.5283,2.9021 10.64,7.91c3.1117,5.0079 5.04,11.73286 5.04,16.73v25.97875c-7.17961,1.75077 -14.67742,2.695 -22.4,2.695c-7.72258,0 -15.22039,-0.94423 -22.4,-2.695v-25.97875c0,-4.88652 2.09587,-11.59559 5.41625,-16.625c3.32038,-5.0294 7.51481,-8.015 11.15625,-8.015zM55.1425,158.06c3.87867,4.02308 8.57441,7.7 15.645,7.7c3.49067,0 7.84763,0.12577 11.9875,-0.245c0.01472,-0.00132 0.02903,-0.00743 0.04375,-0.00875c-0.54543,1.56801 -0.95238,3.14572 -1.295,4.73375h-12.53c-5.52534,0 -9.4287,-1.99615 -11.22625,-5.59125l-0.035,-0.06125l-0.02625,-0.0525c-0.73652,-1.36806 -1.70336,-4.10355 -2.56375,-6.475z"></path></g></g></svg></a></li>
-                </ul>
-                <p></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 d-flex">
-            <div class="coach d-sm-flex align-items-stretch">
-              <div class="img order-xl-last"
-                style="background-image: url(https://media.licdn.com/dms/image/C5103AQGklTc2Smni_w/profile-displayphoto-shrink_800_800/0?e=1556150400&v=beta&t=2DNrPJCkTFXgtf8XshfpTi3kdhf_saCgGkGWHav6_JM);">
-              </div>
-              <div class="text py-4 px-5 ftco-animate">
-                <span class="subheading">Administator</span>
-                <h3><a href="#">Sanjwal Singh</a></h3>
-                <p>Marketing Research Intern at IIM Ranchi</p>
-                <ul class="ftco-social-media d-flex mt-4">
-                  <li class="ftco-animate"><a href="#"
-                      class="mr-2 d-flex justify-content-center align-items-center"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                      width="50" height="50"
-                      viewBox="0 0 224 224"
-                      style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,224v-224h224v224z" fill="none"></path><g fill="#ffffff"><path d="M46.66667,28c-10.31333,0 -18.66667,8.35333 -18.66667,18.66667v130.66667c0,10.31333 8.35333,18.66667 18.66667,18.66667h130.66667c10.31333,0 18.66667,-8.35333 18.66667,-18.66667v-130.66667c0,-10.31333 -8.35333,-18.66667 -18.66667,-18.66667zM46.66667,46.66667h130.66667v130.66667h-130.66667zM72.60677,58.95312c-7.99867,0 -12.79688,4.80827 -12.79688,11.21094c0,6.40267 4.79879,11.19271 11.99479,11.19271c7.99867,0 12.79687,-4.79004 12.79687,-11.19271c0,-6.40267 -4.79879,-11.21094 -11.99479,-11.21094zM60.44792,93.33333v65.33333h23.55208v-65.33333zM103.43229,93.33333v65.33333h23.55209v-35.71094c0,-10.63067 7.58464,-12.15885 9.86197,-12.15885c2.27733,0 8.36719,2.28418 8.36719,12.15885v35.71094h22.78646v-35.71094c0,-20.50533 -9.11182,-29.62239 -20.50782,-29.62239c-11.396,0 -17.47447,3.79458 -20.50781,9.11458v-9.11458z"></path></g></g></svg></a></li>
-                  <li class="ftco-animate"><a href="#"
-                      class="mr-2 d-flex justify-content-center align-items-center"><span
-                        class="icon-facebook"></span></a></li>
-                  <li class="ftco-animate"><a href="#"
-                      class="mr-2 d-flex justify-content-center align-items-center"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                      width="50" height="50"
-                      viewBox="0 0 224 224"
-                      style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,224v-224h224v224z" fill="none"></path><g fill="#ffffff"><path d="M112,8.96c-56.84522,0 -103.04,46.19478 -103.04,103.04c0,56.84522 46.19478,103.04 103.04,103.04c56.84522,0 103.04,-46.19478 103.04,-103.04c0,-56.84522 -46.19478,-103.04 -103.04,-103.04zM112,17.92c52.00086,0 94.08,42.07914 94.08,94.08c0,0.31974 -0.02308,0.63476 -0.02625,0.95375c-2.86547,-0.26449 -6.17628,-0.51572 -10.38625,-0.665c-5.95266,-0.21108 -13.45578,-0.14993 -21.9625,0.27125c0.31545,-2.19676 0.53656,-4.42455 0.5425,-6.71125c0.4338,-8.38934 -2.3834,-16.23771 -6.965,-23.17c1.10687,-3.82469 2.40533,-8.69057 2.73,-14.21c0.37005,-6.29117 -0.17302,-13.26724 -5.22375,-17.98125l-1.295,-1.2075h-1.7675c-12.02015,0 -20.24775,5.03198 -25.27875,9.02125c-7.26433,-2.81187 -15.43275,-4.54125 -24.4475,-4.54125c-9.06588,0 -17.31285,1.75354 -24.87625,4.55875c-5.02815,-3.99117 -13.26295,-9.03875 -25.29625,-9.03875h-1.75875l-1.295,1.19875c-4.91987,4.56845 -5.37315,11.35313 -5.06625,17.61375c0.27064,5.52065 1.49386,10.5411 2.58125,14.55125c-4.65904,7.06762 -7.455,15.11889 -7.455,23.0825c0,2.29209 0.21315,4.52687 0.525,6.72875c-8.08981,-0.37522 -15.30134,-0.44753 -21.02625,-0.245c-4.20988,0.14893 -7.52092,0.39799 -10.38625,0.665c-0.00267,-0.29272 -0.02625,-0.58164 -0.02625,-0.875c0,-52.00086 42.07914,-94.08 94.08,-94.08zM64.49625,58.82625c9.03877,0.8565 15.83909,4.89267 18.9875,7.69125l2.1,1.855l2.59,-1.05875c7.0849,-2.91731 14.98714,-4.59375 23.82625,-4.59375c8.83911,0 16.74352,1.68482 23.2925,4.55l2.625,1.155l2.14375,-1.9075c3.14949,-2.79954 9.96133,-6.83694 19.005,-7.69125c1.20242,1.99352 2.24729,4.82858 1.995,9.1175c-0.30195,5.13283 -1.67493,10.72352 -2.7125,14.04375l-0.67375,2.16125l1.33875,1.82875c4.43285,6.0448 6.69303,12.5867 6.30875,19.50375l-0.00875,0.1225v0.1225c0,11.17964 -4.02578,20.12743 -12.6,26.7575c-8.57402,6.6301 -22.10982,10.87625 -41.16,10.87625c-19.05018,0 -32.59453,-4.24618 -41.16875,-10.87625c-8.57423,-6.63007 -12.59125,-15.57786 -12.59125,-26.7575c0,-6.56188 2.36955,-13.78052 6.74625,-19.74875l1.3125,-1.785l-0.63,-2.12625c-1.03814,-3.52968 -2.31065,-9.24787 -2.56375,-14.41125c-0.21052,-4.29463 0.80592,-7.00912 1.8375,-8.82875zM39.80375,116.57625c3.16598,0.04044 6.79479,0.21133 10.43,0.39375c0.34733,1.39685 0.74337,2.77098 1.225,4.1125c-14.81695,0.31247 -25.90156,1.80244 -32.73375,3.08c-0.28887,-2.24157 -0.51896,-4.50161 -0.6475,-6.79c5.04918,-0.47917 12.16697,-0.91834 21.72625,-0.79625zM184.19625,116.64625c9.55267,-0.1213 16.66781,0.31829 21.7175,0.79625c-0.12838,2.25561 -0.35456,4.48367 -0.63875,6.69375c-7.07635,-1.29819 -18.46046,-2.78789 -33.66125,-3.0275c0.47176,-1.315 0.86458,-2.66553 1.2075,-4.03375c4.01013,-0.21495 7.9224,-0.3849 11.375,-0.42875zM53.36625,125.5275c2.6734,5.35717 6.49334,10.14043 11.54125,14.04375c6.90164,5.33673 15.87417,9.06546 26.8275,11.06c-1.43299,1.47236 -2.7363,3.08918 -3.89375,4.795l-0.27125,-0.23625c0.02464,-0.02822 -2.22712,1.09873 -5.59125,1.4c-3.36413,0.30128 -7.51391,0.21 -11.19125,0.21c-5.488,0 -7.90528,-2.59298 -11.76875,-7.315c-2.1394,-2.88345 -4.74758,-5.21856 -7.28,-6.99125c-2.59306,-1.81514 -4.80511,-3.09627 -7.5425,-3.5525l-0.3675,-0.06125h-0.37625c-2.09067,0 -4.11369,0.15138 -6.0025,2.31c-0.9444,1.07932 -1.59532,3.07747 -1.1725,4.76875c0.42282,1.69128 1.49274,2.73057 2.45,3.36875c6.12292,4.08195 7.20502,12.16087 11.0425,19.34625c3.58366,7.14078 11.31777,10.52625 19.22375,10.52625h11.64625v21.51625c-31.50421,-11.12025 -55.26224,-38.51958 -61.2325,-72.12625c6.85844,-1.2918 18.34339,-2.84488 33.95875,-3.0625zM169.715,125.5625c15.96101,0.13662 27.76811,1.68769 34.88625,3.00125c-5.96232,33.61899 -29.72861,61.02927 -61.24125,72.1525v-23.31c0,-7.09886 -2.3312,-14.9269 -6.3875,-21.455c-1.23154,-1.98201 -2.68027,-3.85643 -4.29625,-5.53875c10.37218,-2.04906 18.89274,-5.71378 25.52375,-10.84125c5.03697,-3.89487 8.84839,-8.66375 11.515,-14.00875zM106.1725,152.76625h12.5475c3.64144,0 7.5283,2.9021 10.64,7.91c3.1117,5.0079 5.04,11.73286 5.04,16.73v25.97875c-7.17961,1.75077 -14.67742,2.695 -22.4,2.695c-7.72258,0 -15.22039,-0.94423 -22.4,-2.695v-25.97875c0,-4.88652 2.09587,-11.59559 5.41625,-16.625c3.32038,-5.0294 7.51481,-8.015 11.15625,-8.015zM55.1425,158.06c3.87867,4.02308 8.57441,7.7 15.645,7.7c3.49067,0 7.84763,0.12577 11.9875,-0.245c0.01472,-0.00132 0.02903,-0.00743 0.04375,-0.00875c-0.54543,1.56801 -0.95238,3.14572 -1.295,4.73375h-12.53c-5.52534,0 -9.4287,-1.99615 -11.22625,-5.59125l-0.035,-0.06125l-0.02625,-0.0525c-0.73652,-1.36806 -1.70336,-4.10355 -2.56375,-6.475z"></path></g></g></svg></a></li>
-                </ul>
-                <p></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <footer class="ftco-footer ftco-section img">
-        <div class="overlay"></div>
-        <div class="container">
-          <div class="row mb-5">
-            <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
-              <div class="ftco-footer-widget mb-4">
-                <h2 class="ftco-heading-2">About Us</h2>
-                <p>The Open Web Application Security Project (OWASP) Student chapters,Thapar University helps to teach, learn, and inspire application security.</p>
-                <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                  <li class="ftco-animate"><a href="https://github.com/owasp-tsc"><span class="icon-github"></span></a></li>
-                  <li class="ftco-animate"><a href="https://www.facebook.com/owasptsc/"><span class="icon-facebook"></span></a></li>
-                  <li class="ftco-animate"><a href="https://www.instagram.com/owasp_tiet/"><span class="icon-instagram"></span></a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-5 mb-md-5">
-              <div class="ftco-footer-widget mb-4">
-                <h2 class="ftco-heading-2">Recent Events</h2>
-                <div class="block-21 mb-4 d-flex">
-                  <a class="blog-img mr-4" style="background-image: url(images/enigma.jpg);"></a>
-                  <div class="text">
-                    <h3 class="heading"><a href="#">Enigma</a>
-                    </h3>
-                    <div class="meta">
-                      <div><a href="#"><span class="icon-calendar"></span> 29-31 October, 2019</a></div>
-                      
-                    </div>
-                  </div>
-                </div>
-                <div class="block-21 mb-4 d-flex">
-                  <a class="blog-img mr-4" style="background-image: url(images/theta.jpg);"></a>
-                  <div class="text">
-                    <h3 class="heading"><a href="#">Theta</a>
-                    </h3>
-                    <div class="meta">
-                      <div><a href="#"><span class="icon-calendar"></span> 01-04 February, 2019</a></div>
-                  
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>				
-            <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
-              <div class="ftco-footer-widget mb-4">
-                <h2 class="ftco-heading-2"></h2>
-                <div class="block-23 mb-3">
-                  <ul>
-                    <li><span class="icon icon-map-marker"></span><span class="text"> Thapar Institute of Engineering and Technology, Patiala,<br> Punjab 147003
-                    </span></li>
-                    <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 9781708007</span></a></li>
-                    <li><a href="mailto:owasp_tsc_thapar.edu?Subject=Hello%20again" target="_top"><span class="icon icon-envelope"></span><span
-                          class="text"></span>Owasp <br>Thapar Student Chapter</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <p>
-                <!-- love start -->
-                <span class="c">
-                  &lt/&gt with ❤ by <a href="https://www.facebook.com/owasptsc/">OWASP TSC</a>
-                </span>
-                <!-- love end -->
-              </p>
-            </div>
-          </div>
-      </footer>
-    
-  
-    
+    <!-- sfsdggsgs -->
+	<!-- footer -->
+	<footer class="ftco-footer ftco-section img">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row mb-5">
+					<div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+						<div class="ftco-footer-widget mb-4">
+							<h2 class="ftco-heading-2">About Us</h2>
+							<p>The Open Web Application Security Project (OWASP) Student chapters,Thapar University helps to teach, learn, and inspire application security.</p>
+							<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+								<li class="ftco-animate"><a href="https://github.com/owasp-tsc"><span class="icon-github"></span></a></li>
+								<li class="ftco-animate"><a href="https://www.facebook.com/owasptsc/"><span class="icon-facebook"></span></a></li>
+								<li class="ftco-animate"><a href="https://www.instagram.com/owasp_tiet/"><span class="icon-instagram"></span></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 mb-5 mb-md-5">
+						<div class="ftco-footer-widget mb-4">
+							<h2 class="ftco-heading-2">Recent Events</h2>
+							<div class="block-21 mb-4 d-flex">
+								<a class="blog-img mr-4" style="background-image: url(images/enigma.jpg);"></a>
+								<div class="text">
+									<h3 class="heading"><a href="#">Enigma</a>
+									</h3>
+									<div class="meta">
+										<div><a href="#"><span class="icon-calendar"></span> 29-31 October, 2019</a></div>
+									</div>
+								</div>
+							</div>
+							<div class="block-21 mb-4 d-flex">
+								<a class="blog-img mr-4" style="background-image: url(images/theta.jpg);"></a>
+								<div class="text">
+									<h3 class="heading"><a href="#">Theta</a>
+									</h3>
+									<div class="meta">
+										<div><a href="#"><span class="icon-calendar"></span> 01-04 February, 2019</a></div>								
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>				
+					<div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+						<div class="ftco-footer-widget mb-4">
+							<h2 class="ftco-heading-2"></h2>
+							<div class="block-23 mb-3">
+								<ul>
+									<li><span class="icon icon-map-marker"></span><span class="text"> Thapar Institute of Engineering and Technology, Patiala,<br> Punjab 147003
+									</span></li>
+									<li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 9781708007</span></a></li>
+									<li><a href="mailto:owasp_tsc_thapar.edu?Subject=Hello%20again" target="_top"><span class="icon icon-envelope"></span><span
+												class="text"></span>Owasp <br>Thapar Student Chapter</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<p>
+							<!-- love strat -->
+							<span class="c">
+								&lt/&gt with ❤ by <a href="https://www.facebook.com/owasptsc/">OWASP TSC</a>
+							</span>
+							<!-- love end -->
+						</p>
+					</div>
+				</div>
+		</footer>
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
-
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/popper.min.js"></script>
@@ -449,6 +282,9 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.2.1/vue-resource.min.js'></script>
+  <script  src="team_js/team-index.js"></script>
     
   </body>
 </html>
