@@ -100,6 +100,39 @@ dl {
   margin-top: 0;
   margin-bottom: 1rem; }
 
+.asso{
+  position: absolute;
+  top:2180px;
+}
+
+.theme{
+  left:350px;
+  margin-bottom:-240px;
+}
+
+.scratch{
+  position: relative;
+   top:200px;
+  display:flex;
+  align-items: center;
+ flex-wrap: wrap;
+
+
+}
+
+.aaaa{
+  top:1000px;
+  margin: -150px -150px;
+  width:950px;
+  height: 800px;
+}
+
+.desc{
+  width:1000px !important;
+  left:500px;
+}
+
+
 ol ol,
 ul ul,
 ol ul,
@@ -191,9 +224,10 @@ caption {
   caption-side: bottom; }
 
 .mapp{
-  position:absolute;
+  position:relative;
   left:28%;
   bottom:80px;
+  top:10px;
 }
 
 
