@@ -1,3 +1,9 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/knyttneve/pen/jGaJjr.
+# HACK-O-WASP
+###HOME PAGE
+<img src="images/readme/home.png"   alt="frontpage" />
 
- our team showcase
+### Our Sponsors
+<img src="images/readme/sponsors.png"   alt="sponsors" />
+
+### Credits
+<img src="images/readme/team-credits.png"   alt="piyush" />
