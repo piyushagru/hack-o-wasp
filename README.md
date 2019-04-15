@@ -1,5 +1,5 @@
 # HACK-O-WASP
-###HOME PAGE
+### HOME PAGE
 <img src="images/readme/home.png"   alt="frontpage" />
 
 ### Our Sponsors
